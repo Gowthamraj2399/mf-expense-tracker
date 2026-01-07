@@ -7,7 +7,7 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
-    publicPath: "/marketing/latest/",
+    publicPath: "/expensetracker/latest/",
   },
   plugins: [
     new ModuleFederationPlugin({
