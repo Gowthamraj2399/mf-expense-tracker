@@ -43,7 +43,7 @@ const Sidebar = () => {
             <button
               key={item.id}
               onClick={() => handleMenuClick(item.id)}
-              className={`flex items-center gap-3 px-3 py-2 rounded-lg transition-colors group ${
+              className={`flex items-center cursor-pointer gap-3 px-3 py-2 rounded-lg transition-colors group ${
                 activeItem === item.id
                   ? "bg-primary/10 text-primary border-l-4 border-primary"
                   : "text-text-secondary hover:bg-surface-dark-alt2 hover:text-white"
