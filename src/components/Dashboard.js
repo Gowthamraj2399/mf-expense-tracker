@@ -1,7 +1,9 @@
 import React from "react";
 
 const Dashboard = () => {
-  return <div>Expense Tracker Dashboard</div>;
+  return (
+    <div className="bg-blue-500 text-white p-4">Expense Tracker Dashboard</div>
+  );
 };
 
 export default Dashboard;
