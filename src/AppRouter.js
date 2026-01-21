@@ -5,6 +5,8 @@ import DashboardPage from "./pages/dashboard";
 import EmiPage from "./pages/emi";
 import MutualFundsPage from "./pages/mutual-funds";
 import GoalsPage from "./pages/goals";
+import RecurringPaymentsPage from "./pages/recurring-payments";
+import TransactionsPage from "./pages/transactions";
 import SettingsPage from "./pages/settings";
 import NotFoundPage from "./pages/not-found";
 
@@ -35,6 +37,11 @@ export default ({ history }) => {
               <Route path="/emi" element={<EmiPage />} />
               <Route path="/mutual-funds" element={<MutualFundsPage />} />
               <Route path="/goals" element={<GoalsPage />} />
+              <Route
+                path="/recurring-payments"
+                element={<RecurringPaymentsPage />}
+              />
+              <Route path="/transactions" element={<TransactionsPage />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>

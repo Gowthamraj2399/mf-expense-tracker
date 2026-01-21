@@ -20,14 +20,14 @@ const DashboardPage = () => {
   } = dashboardConfig;
 
   return (
-    <div className="w-full mx-auto px-8 py-4 max-w-[85vw]">
+    <div className="max-w-[1200px] w-full mx-auto px-4 py-6 pb-20">
       {/* Page Heading */}
-      <div className="flex flex-wrap justify-between items-end gap-2 mb-3">
-        <div className="flex flex-col gap-1">
-          <h1 className="text-2xl md:text-3xl font-black leading-tight tracking-[-0.033em] text-slate-900 dark:text-white">
+      <div className="flex flex-wrap justify-between items-end gap-4 mb-8">
+        <div>
+          <h1 className="text-3xl md:text-4xl font-black leading-tight tracking-[-0.033em] text-slate-900 dark:text-white">
             Welcome back, Alex
           </h1>
-          <p className="text-text-secondary text-xs md:text-sm">
+          <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
             Here is your financial overview for October
           </p>
         </div>

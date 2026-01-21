@@ -30,6 +30,18 @@ export const sidebarConfig = {
       path: "/goals",
     },
     {
+      id: "recurring-payments",
+      label: "Recurring Payments",
+      icon: "replay",
+      path: "/recurring-payments",
+    },
+    {
+      id: "transactions",
+      label: "Transactions",
+      icon: "receipt_long",
+      path: "/transactions",
+    },
+    {
       id: "settings",
       label: "Settings",
       icon: "settings",
